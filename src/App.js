@@ -34,6 +34,9 @@ export default class App extends Component {
     p5.textStyle(p5.BOLD);
     p5.textSize(140);
     p5.text("p5*", 60, 250);
+    p5.fill(100);
+    p5.textSize(50);
+    p5.text(this.cont, 50, 100);
 
     this.cont = this.cont + 1;
     //console.log(this.cont);
